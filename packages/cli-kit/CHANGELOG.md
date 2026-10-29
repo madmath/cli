@@ -1,5 +1,12 @@
 # @shopify/cli-kit
 
+## 5.0.1
+
+### Patch Changes
+
+- d1d59da: Say which access a service account token lacks, or that it was revoked or expired, instead of "Ensure the token is correct and not expired" for both.
+- d418238: Keep tables on one line per row when the output isn't a terminal, and word the store-not-found advice for service account tokens.
+
 ## 5.0.0
 
 ### Minor Changes
